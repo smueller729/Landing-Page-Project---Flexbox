@@ -1,0 +1,22 @@
+.flex-container {
+    display: flex;
+}
+.header, .hero {
+    display: flex;
+    background-color: #1f2937;
+    font-family: roboto;
+    color: white;
+    text-align: left;
+    flex: 1;
+}
+
+.hero {
+    display: flex;
+    font-size: 48px;
+    font-weight: 900;
+    flex:2;
+}
+
+.button {
+    color: #3882F6;
+}
