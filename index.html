@@ -1,15 +1,79 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beacon Wellness Pharmacy</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beacon Wellness Pharmacy</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
-<header class="header">Beacon Wellness Pharmacy</header> 
-<body class="hero">
-<h1>Welcome to Beacon Wellness Pharmacy</h1>  
-<p>Your health is our priority. We offer a wide range of pharmaceutical services and wellness products to help you maintain a healthy lifestyle.</p>
-<button onclick="location.href='signup.html'">Sign Up</button>
+<body>
+    <header class="header">
+      <div class="headerLogo">
+        <img src="./images/sitelogo.png" alt="Beacon Wellness Pharmacy Logo"/>
+      </div>
+      <nav class="headerLinks" aria-label="Primary Navigation">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="heroContent">
+        <div class="heroMaintext">
+          <h2>Welcome to Beacon Wellness Pharmacy</h2>
+        </div>
+        <div class="heroSubtext">
+          <p>Your health is our priority. We offer a wide range of pharmaceutical services and wellness products to help you maintain a healthy lifestyle.</p>
+        </div>
+        <div class="heroActions">
+          <button class="ctaButton" type="button">Sign Up</button>
+        </div>
+      </div>
+
+      <div class="heroImage">
+        <img src="./images/pharmacy.jpg" alt="Beacon Wellness Pharmacy logo" style="width:500px; height:auto;"/>
+      </div>
+    </section>
+
+    <main class="body">
+      <article>
+        <h3>Services</h3>
+        <img src="./images/pharmacyservices.webp" alt="Services Image"/>
+      </article>
+      <article>
+        <h3>Pharmacy</h3>
+        <img src="./images/pharmacy1.jpg" alt="Pharmacy Image"/>
+      </article>
+      <article>
+        <h3>Supplements</h3>
+        <img src="./images/supplements.webp" alt="Supplements Image"/>
+      </article>
+      <article>
+        <h3>Skin Care</h3>
+        <img src="./images/skincare.webp" alt="Skin Care Image"/>
+      </article>
+    </main>
+    <main class="testimonial">
+      <p>"Beacon Wellness Pharmacy went above and beyond to help me with my health needs." -Suzy P.</p>
+    </main>
+    <main class="cta">
+
+<section class="cta-band" aria-labelledby="cta-title">
+  <div class="cta-content">
+    <div class="cta-text">
+      <h2 id="cta-title">Stop the wait!</h2>
+      <p>Join our health and wellness community today!</p>
+    </div>
+    <div class="cta-actions">
+      <a class="cta-outline-btn" href="/signup">Sign up</a>
+    </div>
+  </div>
+</section>
+
+    <div class="footer">
+      <p>&copy; 2024 Beacon Wellness Pharmacy. All rights reserved.</p> 
+  </div>
 </body>
 </html>
